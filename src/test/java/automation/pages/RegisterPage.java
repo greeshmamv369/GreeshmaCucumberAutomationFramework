@@ -43,22 +43,22 @@ public class RegisterPage {
                              String phone, String pwd, String confirmPwd) {
 
         utils.type(firstName, fn);
-        test.info("First name entered");
+        test.info("Entered first name");
 
         utils.type(lastName, ln);
-        test.info("Last name entered");
+        test.info("Entered last name");
 
         utils.type(email, mail);
-        test.info("Email entered");
+        test.info("Entered email");
 
         utils.type(telephone, phone);
-        test.info("Phone entered");
+        test.info("Entered phone");
 
         utils.type(password, pwd);
-        test.info("Password entered");
+        test.info("Entered password");
 
         utils.type(confirmPassword, confirmPwd);
-        test.info("Confirm password entered");
+        test.info("Entered confirm password");
 
         utils.click(continueBtn);
         test.info("Clicked Continue");

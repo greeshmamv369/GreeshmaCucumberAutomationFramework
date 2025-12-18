@@ -34,9 +34,8 @@ public class RegisterSteps {
         );
     }
 
-  /*  @And("user submits the registration form")
+    @Then("account should be created successfully")
     public void account_should_be_created_successfully() {
-        registerPage.userSubmit();
 
         boolean success = BaseClass.getDriver()
                 .getPageSource()
@@ -44,16 +43,10 @@ public class RegisterSteps {
 
         Assert.assertTrue(success);
         BaseClass.getTest().pass("Account created successfully");
-    }*/
+    }
 
     @After
     public void tearDown() {
         BaseClass.quit();
-    }
-
-    @And("user submits the registration form")
-    public void userSubmitsTheRegistrationForm() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
     }
 }

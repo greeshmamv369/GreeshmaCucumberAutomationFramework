@@ -14,17 +14,15 @@ import java.time.Duration;
 
 public class BaseClass {
 
-    protected WebDriver driver;
-    protected ExtentReports extent;
-    protected ExtentTest test;
+    protected static WebDriver driver;
+    protected static ExtentReports extent;
+    protected static ExtentTest test;
 
-    public void initialize(String scenarioName) {
+    public static void init(String scenarioName) {
 
-        // ---------- Extent ----------
         extent = ExtentManager.getInstance();
         test = extent.createTest(scenarioName);
 
-        // ---------- Browser ----------
         String browser = PropertyReader.get("browser");
 
         switch (browser.toLowerCase()) {
@@ -32,12 +30,10 @@ public class BaseClass {
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
-
             case "edge":
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
-
             default:
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
@@ -45,20 +41,19 @@ public class BaseClass {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
         driver.get(PropertyReader.get("url"));
     }
 
-    public void quit() {
+    public static void quit() {
         if (driver != null) driver.quit();
         if (extent != null) extent.flush();
     }
 
-    public WebDriver getDriver() {
+    public static WebDriver getDriver() {
         return driver;
     }
 
-    public ExtentTest getTest() {
+    public static ExtentTest getTest() {
         return test;
     }
 }

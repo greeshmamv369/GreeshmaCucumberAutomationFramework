@@ -334,3 +334,79 @@
 2025-12-11 09:45:49,141 [main] INFO  RegisterPage:91 - User login
 2025-12-11 09:46:09,264 [main] INFO  LoggerUtils:10 - Test Failure:userLogin
 2025-12-11 09:46:09,542 [main] INFO  BaseClass:89 - Browser closed
+2025-12-15 10:23:42,708 [main] INFO  BaseClass:33 - The browser is:chrome
+2025-12-15 10:23:49,583 [main] INFO  BaseClass:38 - The chrome browser is initialised
+2025-12-15 10:23:49,636 [main] INFO  BaseClass:66 - The window maximized
+2025-12-15 10:23:49,644 [main] INFO  BaseClass:69 - The implicit wait is applied
+2025-12-15 10:23:50,986 [main] INFO  BaseClass:72 - The url launched is:https://naveenautomationlabs.com/opencart/index.php?route=account/register
+2025-12-15 10:23:50,986 [main] INFO  BaseClass:76 - page initialised
+2025-12-15 10:23:51,683 [main] INFO  LoggerUtils:10 - Test Started:newUserOnboarding
+2025-12-15 10:23:54,690 [main] INFO  RegisterPage:56 - New User register begins
+2025-12-15 10:23:54,926 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (9133302f514c3c0bf6dc2866f27b82ae)] -> name: firstname]
+2025-12-15 10:23:55,127 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (9133302f514c3c0bf6dc2866f27b82ae)] -> id: input-lastname]
+2025-12-15 10:23:55,499 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (9133302f514c3c0bf6dc2866f27b82ae)] -> name: email]
+2025-12-15 10:23:55,684 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (9133302f514c3c0bf6dc2866f27b82ae)] -> name: telephone]
+2025-12-15 10:23:55,882 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (9133302f514c3c0bf6dc2866f27b82ae)] -> name: password]
+2025-12-15 10:23:56,043 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (9133302f514c3c0bf6dc2866f27b82ae)] -> name: confirm]
+2025-12-15 10:23:56,437 [main] INFO  LoggerUtils:10 - Element clicked
+2025-12-15 10:23:59,469 [main] ERROR RegisterPage:80 - register not complete
+2025-12-15 10:23:59,469 [main] INFO  LoggerUtils:10 - Test Success:newUserOnboarding
+2025-12-15 10:24:00,205 [main] INFO  BaseClass:90 - Browser closed
+2025-12-15 10:24:00,207 [main] INFO  BaseClass:33 - The browser is:chrome
+2025-12-15 10:24:01,276 [main] INFO  BaseClass:38 - The chrome browser is initialised
+2025-12-15 10:24:01,335 [main] INFO  BaseClass:66 - The window maximized
+2025-12-15 10:24:01,340 [main] INFO  BaseClass:69 - The implicit wait is applied
+2025-12-15 10:24:02,524 [main] INFO  BaseClass:72 - The url launched is:https://naveenautomationlabs.com/opencart/index.php?route=account/register
+2025-12-15 10:24:02,526 [main] INFO  BaseClass:76 - page initialised
+2025-12-15 10:24:02,526 [main] INFO  LoggerUtils:10 - Test Started:userLogin
+2025-12-15 10:24:02,530 [main] INFO  RegisterPage:91 - User login
+2025-12-15 10:24:08,206 [main] INFO  LoggerUtils:10 - Test Skipped:userLogin
+2025-12-15 10:24:08,326 [main] INFO  BaseClass:90 - Browser closed
+2025-12-15 10:24:08,327 [main] INFO  BaseClass:33 - The browser is:chrome
+2025-12-15 10:24:09,464 [main] INFO  BaseClass:38 - The chrome browser is initialised
+2025-12-15 10:24:09,511 [main] INFO  BaseClass:66 - The window maximized
+2025-12-15 10:24:09,515 [main] INFO  BaseClass:69 - The implicit wait is applied
+2025-12-15 10:24:10,681 [main] INFO  BaseClass:72 - The url launched is:https://naveenautomationlabs.com/opencart/index.php?route=account/register
+2025-12-15 10:24:10,681 [main] INFO  BaseClass:76 - page initialised
+2025-12-15 10:24:10,684 [main] INFO  LoggerUtils:10 - Test Started:userLogin
+2025-12-15 10:24:10,686 [main] INFO  RegisterPage:91 - User login
+2025-12-15 10:24:15,332 [main] INFO  LoggerUtils:10 - Test Skipped:userLogin
+2025-12-15 10:24:15,457 [main] INFO  BaseClass:90 - Browser closed
+2025-12-15 10:24:15,458 [main] INFO  BaseClass:33 - The browser is:chrome
+2025-12-15 10:24:16,578 [main] INFO  BaseClass:38 - The chrome browser is initialised
+2025-12-15 10:24:16,613 [main] INFO  BaseClass:66 - The window maximized
+2025-12-15 10:24:16,615 [main] INFO  BaseClass:69 - The implicit wait is applied
+2025-12-15 10:24:17,658 [main] INFO  BaseClass:72 - The url launched is:https://naveenautomationlabs.com/opencart/index.php?route=account/register
+2025-12-15 10:24:17,658 [main] INFO  BaseClass:76 - page initialised
+2025-12-15 10:24:17,661 [main] INFO  LoggerUtils:10 - Test Started:userLogin
+2025-12-15 10:24:17,661 [main] INFO  RegisterPage:91 - User login
+2025-12-15 10:24:21,036 [main] INFO  LoggerUtils:10 - Test Failure:userLogin
+2025-12-15 10:24:21,163 [main] INFO  BaseClass:90 - Browser closed
+2025-12-17 09:25:07,024 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (ca55a3a562aa27ceefa69bbe258e2fcd)] -> name: firstname]
+2025-12-17 09:25:07,470 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (ca55a3a562aa27ceefa69bbe258e2fcd)] -> id: input-lastname]
+2025-12-17 09:25:08,008 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (ca55a3a562aa27ceefa69bbe258e2fcd)] -> name: email]
+2025-12-17 09:25:08,426 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (ca55a3a562aa27ceefa69bbe258e2fcd)] -> name: telephone]
+2025-12-17 09:25:08,916 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (ca55a3a562aa27ceefa69bbe258e2fcd)] -> name: password]
+2025-12-17 09:25:09,325 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (ca55a3a562aa27ceefa69bbe258e2fcd)] -> name: confirm]
+2025-12-17 09:25:09,847 [main] INFO  LoggerUtils:10 - Element clicked
+2025-12-17 09:37:53,531 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (778c27dafaa6909245103bf85c3afc72)] -> name: firstname]
+2025-12-17 09:37:53,701 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (778c27dafaa6909245103bf85c3afc72)] -> id: input-lastname]
+2025-12-17 09:37:53,941 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (778c27dafaa6909245103bf85c3afc72)] -> name: email]
+2025-12-17 09:37:54,147 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (778c27dafaa6909245103bf85c3afc72)] -> name: telephone]
+2025-12-17 09:37:54,345 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (778c27dafaa6909245103bf85c3afc72)] -> name: password]
+2025-12-17 09:37:54,552 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (778c27dafaa6909245103bf85c3afc72)] -> name: confirm]
+2025-12-17 09:37:54,993 [main] INFO  LoggerUtils:10 - Element clicked
+2025-12-17 09:38:26,240 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (e3e5ed9ffc5e30653cc4e56aa2a8277a)] -> name: firstname]
+2025-12-17 09:38:26,409 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (e3e5ed9ffc5e30653cc4e56aa2a8277a)] -> id: input-lastname]
+2025-12-17 09:38:26,642 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (e3e5ed9ffc5e30653cc4e56aa2a8277a)] -> name: email]
+2025-12-17 09:38:26,838 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (e3e5ed9ffc5e30653cc4e56aa2a8277a)] -> name: telephone]
+2025-12-17 09:38:27,033 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (e3e5ed9ffc5e30653cc4e56aa2a8277a)] -> name: password]
+2025-12-17 09:38:27,208 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (e3e5ed9ffc5e30653cc4e56aa2a8277a)] -> name: confirm]
+2025-12-17 09:38:27,665 [main] INFO  LoggerUtils:10 - Element clicked
+2025-12-18 11:07:58,306 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (08200decc9410108bfbabc2f6619829a)] -> name: firstname]
+2025-12-18 11:07:58,548 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (08200decc9410108bfbabc2f6619829a)] -> id: input-lastname]
+2025-12-18 11:07:58,788 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (08200decc9410108bfbabc2f6619829a)] -> name: email]
+2025-12-18 11:07:59,023 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (08200decc9410108bfbabc2f6619829a)] -> name: telephone]
+2025-12-18 11:07:59,216 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (08200decc9410108bfbabc2f6619829a)] -> name: password]
+2025-12-18 11:07:59,423 [main] INFO  LoggerUtils:10 - Element with text entered[[ChromeDriver: chrome on windows (08200decc9410108bfbabc2f6619829a)] -> name: confirm]
+2025-12-18 11:07:59,832 [main] INFO  LoggerUtils:10 - Element clicked
