@@ -1,4 +1,4 @@
-package automation.Base;
+package automation.base;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
